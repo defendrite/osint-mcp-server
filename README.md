@@ -16,13 +16,6 @@ docker pull ghcr.io/defendrite/osint-mcp-server:latest
 docker run -e PORT=9001 -p 9001:9001 ghcr.io/defendrite/osint-mcp-server:latest
 ```
 
-To Use MCP Inspector on the Docker Image
-
-```bash
-npx @modelcontextprotocol/inspector docker run -i --rm ghcr.io/defendrite/osint-mcp-server:latest
-
-```
-
 Tools :
 `bulk_ip_geolocation` - Takes list of IP Addresses and returns geolocation details
 
