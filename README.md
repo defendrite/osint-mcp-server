@@ -6,7 +6,7 @@ Build and Run
 
 ```bash
 cargo build --release
-npx @modelcontextprotocol/inspector ./target/release/osint-mcp-server
+./target/release/osint-mcp-server
 ```
 
 Pull Docker Image and Run
