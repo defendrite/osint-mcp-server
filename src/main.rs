@@ -41,7 +41,7 @@ impl OSINTServer {
         Parameters(HelloParams { name }): Parameters<HelloParams>,
     ) -> Result<String, String> {
         Ok(format!(
-            "Hello, {}! Welcome to Rust MCP Server.",
+            "Hello, {}! Welcome to OSINT MCP Server.",
             name
         ))
     }
