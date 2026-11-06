@@ -13,7 +13,7 @@ Pull Docker Image and Run
 
 ```bash
 docker pull ghcr.io/defendrite/osint-mcp-server:latest
-docker run -i --rm ghcr.io/defendrite/osint-mcp-server:latest
+docker run -e PORT=9001 -p 9001:9001 ghcr.io/defendrite/osint-mcp-server:latest
 ```
 
 To Use MCP Inspector on the Docker Image
