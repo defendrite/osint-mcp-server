@@ -22,6 +22,9 @@ npx @modelcontextprotocol/inspector docker run -i --rm ghcr.io/defendrite/osint-
 
 ```
 
+Tools :
+`bulk_ip_geolocation`
+
 ## Technologies
 
 - Rust
