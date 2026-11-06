@@ -16,6 +16,12 @@ docker pull ghcr.io/defendrite/osint-mcp-server:latest
 docker run -i --rm ghcr.io/defendrite/osint-mcp-server:latest
 ```
 
+To Use MCP Inspector on the Docker Image
+``bash
+npx @modelcontextprotocol/inspector docker run -i --rm ghcr.io/defendrite/osint-mcp-server:latest
+
+```
+
 ## Technologies
 
 - Rust
@@ -30,3 +36,4 @@ docker run -i --rm ghcr.io/defendrite/osint-mcp-server:latest
 - [Rust](https://www.rust-lang.org/)
 - [rmcp SDK](https://github.com/modelcontextprotocol/rust-sdk)
 - [MCP Inspector](https://github.com/modelcontextprotocol/inspector)
+```
