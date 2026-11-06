@@ -9,6 +9,13 @@ cargo build --release
 npx @modelcontextprotocol/inspector ./target/release/osint-mcp-server
 ```
 
+Pull Docker Image and Run
+
+```bash
+docker pull ghcr.io/defendrite/osint-mcp-server:latest
+docker run -i --rm ghcr.io/defendrite/osint-mcp-server:latest
+```
+
 ## Technologies
 
 - Rust
